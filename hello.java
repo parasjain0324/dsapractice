@@ -3,7 +3,7 @@ class hello
     int check(int num, int d){
 
 
-
+return 0;
     }
 
     public static void main(String[] args)
