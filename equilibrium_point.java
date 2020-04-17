@@ -1,3 +1,5 @@
+//Logical error is coming
+
 public class equilibrium_point {
     void check_equilibrium(int arr[]) {
         int leftsum, rightsum;
@@ -28,8 +30,7 @@ public class equilibrium_point {
         }
         return sum;
     }
-    void printArray(int arr[])
-    {
+    void printArray(int arr[]) {
         int n = arr.length;
         for (int i = 0; i < n; i++)
             System.out.print(arr[i] + " ");
