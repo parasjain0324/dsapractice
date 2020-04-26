@@ -54,7 +54,7 @@ class linkedListDelete {
         Node n = head;
         Node prev = null;
         int i = 1;
-        while (n != null) {
+        while (n.next != null) {
             if(pos == i) {
                 prev = n.next;
                 break;
