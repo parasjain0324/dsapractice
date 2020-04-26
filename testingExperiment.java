@@ -30,7 +30,7 @@ public class testingExperiment {
             n = n.next;
         }
 
-        System.out.println("\n \n Fifth -> Next : " + fifth.next );
+        System.out.println("\n \n Head -> Next -> Next : " + obj.head.next.next + "\n Head -> Next -> Next -> Data : " + obj.head.next.next.data);
 
     }
 }

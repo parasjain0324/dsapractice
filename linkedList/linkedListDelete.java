@@ -1,3 +1,5 @@
+// Linked List Program to delete en element from starting, middle(works on the basis of position), end
+
 class linkedListDelete {
     Node head;
     static class Node {
@@ -52,16 +54,13 @@ class linkedListDelete {
 
     Node deleteAtMiddle(int pos) {
         Node n = head;
-        Node prev = null;
         int i = 1;
         while (n.next != null) {
-            if(pos == i) {
-                prev = n.next;
+            if(i+1 == pos) {
+                n.next = n.next.next;
                 break;
             }
-//            System.out.print(n.data);
-//            printList();
-            prev = n;
+            i++;
             n = n.next;
         }
         return head;
@@ -83,7 +82,7 @@ class linkedListDelete {
 //        obj.deleteAtEnd();
 //        obj.printList();
 
-        obj.deleteAtMiddle(3);
+        obj.deleteAtMiddle(2);
         obj.printList();
 
 
