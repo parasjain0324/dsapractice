@@ -53,26 +53,26 @@ public class linkedListInsert{
     public static void main(String[] args) {
         linkedListInsert obj = new linkedListInsert();
         obj.head = new Node(1);
-        Node second = new Node(2);
-        Node third = new Node(3);
-        Node fourth = new Node(4);
-        Node fifth = new Node(5);
-
-        obj.head.next = second;
-        second.next = third;
-        third.next = fourth;
-        fourth.next = fifth;
-        fifth.next = null;
+//        Node second = new Node(2);
+//        Node third = new Node(3);
+//        Node fourth = new Node(4);
+//        Node fifth = new Node(5);
+//
+//        obj.head.next = second;
+//        second.next = third;
+//        third.next = fourth;
+//        fourth.next = fifth;
+//        fifth.next = null;
         obj.printList();
 
-        Node newNode = new Node(10);
+//        Node newNode = new Node(10);
         Node newNode2 = new Node(20);
-        Node newNode3 = new Node(30);
-        newNode.next = null;
+//        Node newNode3 = new Node(30);
+//        newNode.next = null;
 
-        obj.insertAtStart(newNode);
+//        obj.insertAtStart(newNode);
         obj.insertAtLast(newNode2);
-        obj.insertAtMiddle(newNode3, 3);
+//        obj.insertAtMiddle(newNode3, 3);
 
         System.out.println("");
 
