@@ -1,4 +1,7 @@
-// 4,7,1,7,4
+// Do this again after finishing Stacks
+
+//Sample Input -  4,7,1,7,4
+
 
 public class linkedListPalindrome {
     Nodee head;
@@ -43,9 +46,13 @@ public class linkedListPalindrome {
         third.next = fourth;
         fourth.next = fifth;
         fifth.next = null;
+
         obj.printList(obj.head);
+
         Nodee node = obj.rev(obj.head);
+
         System.out.println(" ");
+
         obj.printList(node);
     }
 }
